@@ -18,6 +18,7 @@ nav {
   display: inline-block;
   width: 100%;
   max-width: 1366px;
+  margin: 0 5%;
 }
 
 .nav li {
@@ -34,7 +35,7 @@ nav {
 }
 
 header {
-  background: linear-gradient(to top, rgb(0, 24, 69, 0.60), rgb(0, 24, 69, 0.38)), url('img/image.jpeg');
+  background: linear-gradient(to top, rgb(0, 24, 69, 0.60), rgb(0, 24, 69, 0.38)), url('');
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100vw;
@@ -49,6 +50,6 @@ header .container {
 
 header .container h1 {
   color: white;
-  margin: 25% 0 0 20px;
+  margin: 25% 0 0 10%;
   display: inline-block;
 }
