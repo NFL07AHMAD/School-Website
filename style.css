@@ -63,3 +63,21 @@ header .container h1 {
   margin: 25% 0 0 10%;
   display: inline-block;
 }
+
+main {
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 20px;
+  overflow: hidden;
+}
+
+main .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+main p {
+  margin: 0;
+}
