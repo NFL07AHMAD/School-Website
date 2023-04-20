@@ -11,23 +11,33 @@ nav {
   justify-content: center;
   align-items: center;
   position: fixed;
+  height: 60px;
 }
 
 .nav {
-  list-style-type: none;
-  display: inline-block;
-  width: 100%;
   max-width: 1366px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
   margin: 0 5%;
 }
 
-.nav li {
-  float: left;
-  display: inline;
-  padding: 10px;
+.nav .nav-link {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 5%;
+  padding: 0;
+  height: min-content;
 }
 
-.nav li a {
+.nav .nav-link li {
+  float: left;
+  display: inline;
+  margin: 0 15px;
+}
+
+.nav .nav-link li a {
   display: block;
   padding: 5px;
   text-decoration: none;
