@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -12,6 +16,7 @@ nav {
   align-items: center;
   position: fixed;
   height: 60px;
+  background-color: #fff;
 }
 
 .nav {
@@ -44,18 +49,27 @@ nav {
   color: white;
 }
 
+.nav .apply {
+  padding: 10px 15px;
+  background: #3f6bff;
+  border-radius: 100px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
 header {
-  background: linear-gradient(to top, rgb(0, 24, 69, 0.60), rgb(0, 24, 69, 0.38)), url('');
+  background: linear-gradient(to top, rgb(0, 24, 69, 0.60), rgb(0, 24, 69, 0.38)), url('assets/img/image.jpeg');
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 
 header .container {
   width: 100%;
   height: 100%;
-  max-width: 1366px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header .container h1 {
@@ -67,7 +81,6 @@ header .container h1 {
 main {
   max-width: 100%;
   overflow-x: hidden;
-  padding: 20px;
   overflow: hidden;
 }
 
